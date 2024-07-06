@@ -1,0 +1,42 @@
+.item {
+    width:500px;
+    color: black;
+    margin:0 auto;
+    font-size: 15px;
+}
+
+.itemName{
+    font-weight: bold;
+    cursor: pointer;
+    padding:15px 5px;
+}
+.line{
+     border:1px solid rgba(0,0,0,10%);
+}
+
+.deleteButton
+{
+    float: right;
+    background-color: #F2C21D;
+    color: black;
+    border:none;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    transition: all 0.2s;
+    font-family: "JetBrains Mono","sans-serif";
+    box-shadow: 0 4px 6px rgba(0,0,0,10%);
+    margin-top: -12px;
+}
+.deleteButton:active
+{
+    box-shadow: 0 4px 6px rgba(0,0,0,0%);
+
+}
+
+.completed
+{
+    text-decoration: line-through;
+}

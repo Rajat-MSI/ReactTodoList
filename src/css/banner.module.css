@@ -1,0 +1,16 @@
+.banner
+{
+    bottom: 0;
+    font-size: .9em;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    /*background-color: #F2C21D;*/
+    padding: 20px;
+    /*box-shadow: 0 4px 6px rgba(0,0,0,10%);*/
+
+}
+.item
+{
+    margin: 100px;
+}
